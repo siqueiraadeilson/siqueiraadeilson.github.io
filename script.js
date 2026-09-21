@@ -41,6 +41,11 @@ uiTranslations.es.footnote[1] = 'IDEA → SISTEMA → EXPERIENCIA';
 
 let currentLanguage = localStorage.getItem('portfolio-language') || 'pt-BR';
 const setText = (selector, value) => { const element = document.querySelector(selector); if (element) element.innerHTML = value; };
+const backToTop = document.querySelector('#back-to-top');
+const updateBackToTop = () => backToTop?.classList.toggle('is-visible', window.scrollY > 520);
+window.addEventListener('scroll', updateBackToTop, { passive: true });
+backToTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+updateBackToTop();
 const setLanguage = language => {
   currentLanguage = uiTranslations[language] ? language : 'pt-BR';
   const t = uiTranslations[currentLanguage];
@@ -57,6 +62,7 @@ const setLanguage = language => {
   setText('.contact-top .eyebrow', t.contactEyebrow); setText('.contact h2', t.contactTitle); setText('.contact-note', t.contactNote); document.querySelector('.contact-status span').innerHTML = `<i></i> ${t.status[0]}`; setText('.contact-status strong', t.status[1]); setText('.contact-status small', t.status[2]);
   document.querySelectorAll('.project-info').forEach(info => { const project = info.closest('.project').dataset.project; const details = localizedProjectDetails[currentLanguage][project]; info.querySelector('.project-type').textContent = details.label; info.querySelector('p').textContent = details.text; info.querySelector('.details-button').childNodes[0].textContent = currentLanguage === 'en' ? 'view study ' : currentLanguage === 'es' ? 'ver estudio ' : 'ver estudo '; });
   localStorage.setItem('portfolio-language', currentLanguage); document.querySelector('#language-select').setAttribute('aria-label', currentLanguage === 'en' ? 'Language' : currentLanguage === 'es' ? 'Idioma' : 'Idioma'); if (typeof menuToggle !== 'undefined') menuToggle.setAttribute('aria-label', navigation?.classList.contains('mobile-open') ? (currentLanguage === 'en' ? 'Close menu' : currentLanguage === 'es' ? 'Cerrar menú' : 'Fechar menu') : (currentLanguage === 'en' ? 'Open menu' : currentLanguage === 'es' ? 'Abrir menú' : 'Abrir menu')); if (window.lucide?.createIcons) window.lucide.createIcons();
+  if (backToTop) { const label = currentLanguage === 'en' ? 'Back to top' : currentLanguage === 'es' ? 'Volver arriba' : 'Voltar ao topo'; backToTop.setAttribute('aria-label', label); backToTop.setAttribute('title', label); }
 };
 
 const dialog = document.querySelector('#project-dialog');
