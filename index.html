@@ -144,9 +144,9 @@
     body.light .footer-icon{color:#506c00;background:var(--light-surface)}
     .brand-icon::before{content:'';display:block;width:13px;height:13px;background:currentColor;mask:center/contain no-repeat;-webkit-mask:center/contain no-repeat}
     .icon-github::before{mask-image:url('https://cdn.simpleicons.org/github');-webkit-mask-image:url('https://cdn.simpleicons.org/github')}
-    .icon-linkedin img,.icon-squood img{width:14px;height:14px;object-fit:contain}
-    .icon-linkedin img{filter:invert(97%) sepia(57%) saturate(628%) hue-rotate(26deg) brightness(108%) contrast(101%)}
-    body.light .icon-linkedin img{filter:invert(34%) sepia(45%) saturate(949%) hue-rotate(42deg) brightness(91%) contrast(101%)}
+    .footer-icon{--footer-mark-filter:brightness(0) saturate(100%) invert(95%) sepia(48%) saturate(834%) hue-rotate(27deg) brightness(108%) contrast(102%)}
+    body.light .footer-icon{--footer-mark-filter:brightness(0) saturate(100%) invert(34%) sepia(35%) saturate(1205%) hue-rotate(42deg) brightness(93%) contrast(102%)}
+    .icon-linkedin img,.icon-squood img{width:14px;height:14px;object-fit:contain;filter:var(--footer-mark-filter)!important}
     .icon-modrinth::before{mask-image:url('https://cdn.simpleicons.org/modrinth');-webkit-mask-image:url('https://cdn.simpleicons.org/modrinth')}
     .icon-behance::before{mask-image:url('https://cdn.simpleicons.org/behance');-webkit-mask-image:url('https://cdn.simpleicons.org/behance')}
     .icon-squood{background:var(--surface)}
