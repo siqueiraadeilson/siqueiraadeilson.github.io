@@ -51,7 +51,8 @@
     .visual-squood .visual-top,.visual-squood .visual-word,.visual-squood .visual-caption,.visual-squood .visual-stamp{z-index:1;position:relative}
     .visual-squood .visual-word{width:calc(100% - 128px);max-width:calc(100% - 128px);font-size:clamp(2.15rem,4.6vw,4.3rem);line-height:.9;overflow-wrap:anywhere;white-space:normal;text-shadow:0 1px 0 rgba(255,255,255,.2)}
     .visual-gamium{background:#192528 url('https://raw.githubusercontent.com/adessuquinho/gamium/master/resources/icon.png') center/110px no-repeat;background-blend-mode:screen}
-    .profile-photo{width:154px;height:154px;object-fit:cover;border-radius:50%;z-index:2;filter:saturate(.85);border:5px solid var(--lime)}
+    .profile-photo{width:154px;height:154px;object-fit:cover;border-radius:50%;z-index:2;filter:saturate(.85);border:5px solid var(--lime);cursor:pointer}
+    .profile-photo:focus-visible{outline:2px solid var(--coral);outline-offset:5px}
     .profile-photo + span,.profile-photo + span + small{display:none}
     .whatsapp-link{color:var(--lime);transition:color .2s}.whatsapp-link:hover{color:var(--coral)}
     @keyframes copy-in{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
@@ -193,7 +194,7 @@
         </div>
         <div class="hero-signal" role="img" aria-label="Foto de Adeilson Siqueira cercada por órbitas">
           <div class="signal-orbit orbit-one"></div><div class="signal-orbit orbit-two"></div><div class="signal-orbit orbit-three"></div><span class="signal-planet planet-blue" aria-hidden="true"></span><span class="signal-planet planet-coral" aria-hidden="true"></span><span class="signal-planet planet-lime" aria-hidden="true"></span><span class="signal-star star-one" aria-hidden="true">✦</span><span class="signal-star star-two" aria-hidden="true">+</span><span class="signal-star star-three" aria-hidden="true">✦</span><span class="signal-star star-four" aria-hidden="true">·</span><span class="signal-star star-five" aria-hidden="true">✧</span><span class="signal-star star-six" aria-hidden="true">·</span>
-          <div class="signal-core"><img class="profile-photo" src="https://avatars.githubusercontent.com/u/101469157?v=4" alt="Foto de Adeilson Siqueira" width="460" height="460" fetchpriority="high" decoding="async"><span>AS</span><small>PRODUTO<br>+ CÓDIGO</small></div>
+          <div class="signal-core"><img class="profile-photo" src="https://avatars.githubusercontent.com/u/101469157?v=4" alt="Foto de Adeilson Siqueira" role="button" tabindex="0" aria-label="Foto de Adeilson Siqueira. Clique sete vezes para uma surpresa." width="460" height="460" fetchpriority="high" decoding="async"><span>AS</span><small>PRODUTO<br>+ CÓDIGO</small></div>
           <div class="signal-note note-top">01 — PRINCÍPIO<br><strong>clareza antes<br>de complexidade</strong></div>
           <div class="signal-note note-bottom">LOCAÇÃO ATUAL<br><strong>São Paulo, BR</strong></div>
           <span class="cross cross-one" aria-hidden="true">+</span><span class="cross cross-two" aria-hidden="true">+</span>

@@ -87,6 +87,33 @@ document.querySelectorAll('.filter').forEach(filter => filter.addEventListener('
 }));
 
 document.querySelector('#theme-toggle').addEventListener('click', () => document.body.classList.toggle('light'));
+
+const profilePhoto = document.querySelector('.profile-photo');
+const surpriseVideoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+const surpriseClickCount = 7;
+const surpriseClickWindow = 3000;
+let profileClicks = 0;
+let profileClickStartedAt = 0;
+const revealProfileSurprise = () => {
+  const now = Date.now();
+  if (!profileClickStartedAt || now - profileClickStartedAt > surpriseClickWindow) {
+    profileClicks = 0;
+    profileClickStartedAt = now;
+  }
+  profileClicks += 1;
+  if (profileClicks === surpriseClickCount) {
+    window.open(surpriseVideoUrl, '_blank', 'noopener,noreferrer');
+    profileClicks = 0;
+    profileClickStartedAt = 0;
+  }
+};
+profilePhoto?.addEventListener('click', revealProfileSurprise);
+profilePhoto?.addEventListener('keydown', event => {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    revealProfileSurprise();
+  }
+});
 const navigation = document.querySelector('.nav-links');
 const menuToggle = document.querySelector('#menu-toggle');
 const closeMobileMenu = () => {
