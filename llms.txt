@@ -1,0 +1,36 @@
+# Adeilson Siqueira — Portfólio
+
+> Portfólio de Adeilson Siqueira, desenvolvedor e engenheiro de produto (product engineer) baseado em São Paulo, Brasil. Constrói produtos digitais, software aberto e ferramentas com React, TypeScript, Node.js e Electron.
+
+Site em português (pt-BR), com seções em inglês e espanhol. Última atualização: setembro de 2026.
+
+## Sobre
+
+Adeilson Siqueira é desenvolvedor e engenheiro de produto. Trabalha entre a arquitetura e a interface: desenha o sistema, escreve o código e acompanha o produto até o uso. Atua de forma remota a partir de São Paulo, Brasil.
+
+- Contato: siqueiraadeilson@gmail.com
+- Disponível para novos projetos (resposta em até 48h)
+
+## Projetos
+
+- [Squood](https://squood.com): plataforma social focada em comunidades, construída com privacidade como princípio. Fundador e engenheiro de produto (2026).
+- [Gamium](https://github.com/adessuquinho/gamium): aplicativo de comunicação descentralizada, criptografada e P2P — Electron, React, TypeScript, Vite, Gun.js e WebRTC.
+- [Auto Best Enchantments](https://modrinth.com/mod/auto-best-enchantments): mod de Minecraft (Fabric) que automatiza o ciclo do bibliotecário até encontrar o livro e o preço ideais. Mais de 1,8 mil downloads.
+- [Librarian Books Preview](https://modrinth.com/mod/librarian-books-preview): mod de Minecraft que mostra até três trocas do bibliotecário em tempo real. Licença MIT.
+- [some-windows-scripts](https://github.com/adessuquinho/some-windows-scripts): 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows. Licença MIT.
+
+## Stack
+
+React, TypeScript, JavaScript, Node.js, Electron, Vite, Gun.js, WebRTC, Zustand, Java (Fabric), Batch.
+
+## Perfis
+
+- GitHub: https://github.com/adessuquinho
+- LinkedIn: https://www.linkedin.com/in/siqueiraadeilson/
+- Modrinth: https://modrinth.com/user/adesdot
+- Behance: https://www.behance.net/siqueiraadeilson
+- Fiverr: https://www.fiverr.com/sikzgmg
+
+## Conteúdo do site
+
+- [Página principal](https://siqueiraadeilson.github.io/): portfólio completo, com hero, projetos selecionados, abordagem de trabalho, sobre/stack e contato.
