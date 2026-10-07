@@ -152,7 +152,7 @@ document.body.classList.add('is-loading');
 const siteIntroElements = [document.querySelector('.site-header'), document.querySelector('main')].filter(Boolean);
 siteIntroElements.forEach(element => element.classList.add('site-enter'));
 const loaderStartedAt = performance.now();
-const minimumLoaderTime = 1600;
+const minimumLoaderTime = 2000;
 let loadingFinished = false;
 const finishLoading = () => {
   if (loadingFinished) return;
