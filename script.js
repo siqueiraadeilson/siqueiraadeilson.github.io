@@ -1,5 +1,6 @@
 const projectDetails = {
   squood: { label: 'PRODUTO DIGITAL / 2026', title: 'Squood', text: 'Uma plataforma social focada em comunidades e construída com privacidade como princípio. Como fundador e engenheiro de produto, Adeilson participa das decisões que vão da arquitetura à experiência.', points: ['Privacidade real: sem rastreamento invasivo ou venda de informações', 'Comunidades com regras claras e moderação transparente', 'Produto em fase de refinamento e estabilização, guiado por feedback real'] },
+  mousePointerGen: { label: 'PRODUTO DIGITAL / CURSOR STUDIO', title: 'Mouse Pointer Gen', text: 'Um editor web para criar cursores personalizados em pixel art. Desenhe em uma grade 64 × 64 ou importe PNG/GIF, personalize cores e escala, defina o ponto de clique, teste na prévia 3D e exporte o resultado em PNG.', points: ['Editor com lápis, borracha, limpeza, formas rápidas e redesenho de formas', 'Cores independentes para cursor, contorno e lápis, incluindo valores personalizados', 'Ponto de clique predefinido ou escolhido no desenho, com prévia ao vivo'] },
   gamium: { label: 'APLICAÇÃO DESKTOP / OPEN SOURCE', title: 'Gamium', text: 'Um app de comunicação descentralizada, criptografada e P2P. O projeto combina Electron, React, TypeScript, Vite, Gun.js, WebRTC e Zustand para reimaginar chat, voz e comunidades sem servidor central.', points: ['DMs com criptografia ECDH, servidores, grupos, voz e compartilhamento de tela', 'Identidade por chaves públicas e recuperação com frase BIP39 de 12 palavras', 'Atualizações automáticas e distribuição para Windows, Linux e macOS'] },
   mods: { label: 'MINECRAFT MOD / FABRIC', title: 'Auto Best Enchantments', text: 'Uma automação focada em um momento conhecido por todo jogador de Minecraft: repetir o ciclo do bibliotecário até encontrar o livro e o preço ideais.', points: ['Metas por encantamento, nível e faixa de preço via comando /autolec', 'Modos de auto trade, logs de chat, pre-break e preservação de ferramenta', 'Mais de 1,8 mil downloads e experiência client-side'] },
   librarian: { label: 'MINECRAFT MOD / FABRIC', title: 'Librarian Books Preview', text: 'Um mod pequeno e preciso: mirar no bibliotecário já revela até três trocas de livros encantados, com nome localizado e custo exato em esmeraldas.', points: ['Overlay em tempo real sem abrir a interface de comércio', 'Compatível com Fabric, Fabric API e ambientes client-side e server-side', 'Mais de 1,7 mil downloads e licença MIT'] },
@@ -11,6 +12,7 @@ const localizedProjectDetails = {
   'pt-BR': projectDetails,
   en: {
     squood: { label: 'DIGITAL PRODUCT / 2026', title: 'Squood', text: 'A social platform centered on communities and built with privacy as a principle. As founder and product engineer, Adeilson works across architecture and experience.', points: ['Real privacy: no invasive tracking or sale of personal information', 'Communities with clear rules and transparent moderation', 'A product being refined and stabilized through real feedback'] },
+    mousePointerGen: { label: 'DIGITAL PRODUCT / CURSOR STUDIO', title: 'Mouse Pointer Gen', text: 'A web editor for custom pixel-art cursors. Draw on a 64 × 64 canvas or import PNG/GIF, customize colors and scale, set the click hotspot, test in a live 3D preview, and export as PNG.', points: ['Editor with pencil, eraser, clear, quick shapes, and shape redraw tools', 'Independent cursor, outline, and pencil colors, including custom values', 'Preset or canvas-picked click hotspot with a live preview'] },
     gamium: { label: 'DESKTOP APP / OPEN SOURCE', title: 'Gamium', text: 'A decentralized, encrypted P2P communication app. The project combines Electron, React, TypeScript, Vite, Gun.js, WebRTC, and Zustand to rethink chat, voice, and communities without a central server.', points: ['Encrypted DMs, servers, groups, voice, and screen sharing', 'Public-key identity and recovery through a 12-word BIP39 phrase', 'Automatic updates for Windows, Linux, and macOS'] },
     mods: { label: 'MINECRAFT MOD / FABRIC', title: 'Auto Best Enchantments', text: 'Automation for a familiar Minecraft loop: repeat the librarian cycle until the ideal book and price appear.', points: ['Targets enchantment, level, and price range through /autolec', 'Auto trade, chat logs, pre-break, and tool preservation modes', 'More than 1.8k downloads and a client-side experience'] },
     librarian: { label: 'MINECRAFT MOD / FABRIC', title: 'Librarian Books Preview', text: 'A small, precise mod: aim at a librarian and instantly see up to three enchanted book trades, with localized names and exact emerald costs.', points: ['Real-time overlay without opening the trading interface', 'Compatible with Fabric, Fabric API, and client/server environments', 'More than 1.7k downloads and MIT licensed'] },
@@ -19,6 +21,7 @@ const localizedProjectDetails = {
   },
   es: {
     squood: { label: 'PRODUCTO DIGITAL / 2026', title: 'Squood', text: 'Una plataforma social centrada en comunidades y construida con la privacidad como principio. Como fundador e ingeniero de producto, Adeilson participa desde la arquitectura hasta la experiencia.', points: ['Privacidad real: sin rastreo invasivo ni venta de información personal', 'Comunidades con reglas claras y moderación transparente', 'Producto refinado y estabilizado a partir de comentarios reales'] },
+    mousePointerGen: { label: 'PRODUCTO DIGITAL / CURSOR STUDIO', title: 'Mouse Pointer Gen', text: 'Un editor web para crear cursores personalizados en pixel art. Dibuja en un lienzo de 64 × 64 o importa PNG/GIF, personaliza colores y escala, define el punto de clic, prueba en la vista previa 3D y exporta en PNG.', points: ['Editor con lápiz, borrador, limpiar, formas rápidas y redibujado', 'Colores independientes para cursor, contorno y lápiz, con valores personalizados', 'Punto de clic predefinido o elegido en el dibujo, con vista previa en vivo'] },
     gamium: { label: 'APLICACIÓN DE ESCRITORIO / OPEN SOURCE', title: 'Gamium', text: 'Una app de comunicación descentralizada, cifrada y P2P. Combina Electron, React, TypeScript, Vite, Gun.js, WebRTC y Zustand para repensar el chat, la voz y las comunidades sin un servidor central.', points: ['DMs cifrados, servidores, grupos, voz y compartir pantalla', 'Identidad con claves públicas y recuperación mediante frase BIP39 de 12 palabras', 'Actualizaciones automáticas para Windows, Linux y macOS'] },
     mods: { label: 'MOD DE MINECRAFT / FABRIC', title: 'Auto Best Enchantments', text: 'Automatiza un ciclo conocido de Minecraft: repetir el proceso del bibliotecario hasta encontrar el libro y precio ideales.', points: ['Objetivos de encantamiento, nivel y precio mediante /autolec', 'Modos de auto trade, registros de chat, pre-break y protección de herramientas', 'Más de 1,8 K descargas y experiencia client-side'] },
     librarian: { label: 'MOD DE MINECRAFT / FABRIC', title: 'Librarian Books Preview', text: 'Un mod pequeño y preciso: apunta al bibliotecario para ver hasta tres intercambios de libros encantados, con nombres localizados y coste exacto en esmeraldas.', points: ['Overlay en tiempo real sin abrir la interfaz de comercio', 'Compatible con Fabric, Fabric API y entornos client/server', 'Más de 1,7 K descargas y licencia MIT'] },
@@ -27,8 +30,39 @@ const localizedProjectDetails = {
   }
 };
 
+const localizedProjectMeta = {
+  'pt-BR': {
+    squood: ['Engenharia de produto', 'Comunidades', 'Privacidade'],
+    mousePointerGen: ['Pixel art 64 × 64', 'Importa PNG / GIF', 'Exporta PNG'],
+    gamium: ['Electron + React', 'Gun.js', 'WebRTC'],
+    mods: ['1,8 mil downloads', 'Client-side', 'Utilitário'],
+    librarian: ['1,7 mil downloads', 'Licença MIT', 'Cliente + servidor'],
+    roblox: ['Roblox', 'Servidores de 6', 'Beta'],
+    scripts: ['13 scripts', 'Windows 10+', 'Licença MIT']
+  },
+  en: {
+    squood: ['Product engineering', 'Communities', 'Privacy'],
+    mousePointerGen: ['Pixel art 64 × 64', 'PNG / GIF import', 'PNG export'],
+    gamium: ['Electron + React', 'Gun.js', 'WebRTC'],
+    mods: ['1.8k downloads', 'Client-side', 'Utility'],
+    librarian: ['1.7k downloads', 'MIT License', 'Client + server'],
+    roblox: ['Roblox', '6-player servers', 'Beta'],
+    scripts: ['13 scripts', 'Windows 10+', 'MIT License']
+  },
+  es: {
+    squood: ['Ingeniería de producto', 'Comunidades', 'Privacidad'],
+    mousePointerGen: ['Pixel art 64 × 64', 'Importa PNG / GIF', 'Exporta PNG'],
+    gamium: ['Electron + React', 'Gun.js', 'WebRTC'],
+    mods: ['1,8 mil descargas', 'Client-side', 'Utilidad'],
+    librarian: ['1,7 mil descargas', 'Licencia MIT', 'Cliente + servidor'],
+    roblox: ['Roblox', 'Servidores para 6', 'Beta'],
+    scripts: ['13 scripts', 'Windows 10+', 'Licencia MIT']
+  }
+};
+
 const projectLinks = {
   squood: 'https://squood.com',
+  mousePointerGen: 'https://mouse-pointer-gen.vercel.app/',
   gamium: 'https://github.com/adessuquinho/gamium',
   mods: 'https://modrinth.com/mod/auto-best-enchantments',
   librarian: 'https://modrinth.com/mod/librarian-books-preview',
@@ -57,6 +91,7 @@ const setLanguage = language => {
   document.querySelector('#language-select').value = currentLanguage;
   document.querySelector('.language-flag').className = `fi fi-${currentLanguage === 'en' ? 'us' : currentLanguage === 'es' ? 'es' : 'br'} language-flag`;
   document.querySelectorAll('.nav-links > a').forEach((link, index) => { link.innerHTML = t.nav[index]; });
+  document.querySelector('.nav-links > a:first-child sup').textContent = '07';
   document.querySelector('.language-label').textContent = currentLanguage === 'en' ? 'Language' : 'Idioma';
   const whatsappLabel = currentLanguage === 'en' ? 'via WhatsApp' : currentLanguage === 'es' ? 'por WhatsApp' : 'pelo WhatsApp';
   setText('.available', `<i data-lucide="message-circle" aria-hidden="true"></i> ${t.available} <span class="sr-only">${whatsappLabel}</span>`); setText('.hero-kicker span:last-child', t.heroKicker); setText('.intro-label', t.intro); setText('.hero h1', t.title); setText('.hero-text', t.heroText); setText('.text-link', `${t.explore} <i data-lucide="arrow-down-right"></i>`); setText('.scroll-cue span', t.scroll);
@@ -66,7 +101,7 @@ const setLanguage = language => {
   setText('.approach-ledger > .eyebrow', t.ledger[0]); document.querySelectorAll('.approach-ledger strong').forEach((element, index) => { element.textContent = t.ledger[1][index]; }); setText('.approach-ledger p', t.ledger[2]);
   setText('.about .section-heading .eyebrow', t.aboutEyebrow); setText('.about .section-heading h2', t.aboutTitle); setText('.about .section-heading > p', t.aboutText); setText('.stack-ledger > .eyebrow', t.stackEyebrow); document.querySelectorAll('.stack-ledger strong').forEach((element, index) => { if (t.stackItems[index]) element.textContent = t.stackItems[index]; }); setText('.stack-ledger p', t.stackText);
   setText('.contact-top .eyebrow', t.contactEyebrow); setText('.contact h2', t.contactTitle); setText('.contact-note', t.contactNote); document.querySelector('.contact-status span').innerHTML = `<i></i> ${t.status[0]}`; setText('.contact-status strong', t.status[1]); setText('.contact-status small', t.status[2]);
-  document.querySelectorAll('.project-info').forEach(info => { const project = info.closest('.project').dataset.project; const details = localizedProjectDetails[currentLanguage][project]; info.querySelector('.project-type').textContent = details.label; info.querySelector('p').textContent = details.text; info.querySelector('.details-button').childNodes[0].textContent = currentLanguage === 'en' ? 'view study ' : currentLanguage === 'es' ? 'ver estudio ' : 'ver estudo '; });
+  document.querySelectorAll('.project-info').forEach(info => { const project = info.closest('.project').dataset.project; const details = localizedProjectDetails[currentLanguage][project]; info.querySelector('.project-type').textContent = details.label; info.querySelector('p').textContent = details.text; info.querySelectorAll('.project-meta span').forEach((meta, index) => { meta.textContent = localizedProjectMeta[currentLanguage][project][index]; }); info.querySelector('.details-button').childNodes[0].textContent = currentLanguage === 'en' ? 'view study ' : currentLanguage === 'es' ? 'ver estudio ' : 'ver estudo '; });
   localStorage.setItem('portfolio-language', currentLanguage); document.querySelector('#language-select').setAttribute('aria-label', currentLanguage === 'en' ? 'Language' : currentLanguage === 'es' ? 'Idioma' : 'Idioma'); if (typeof menuToggle !== 'undefined') menuToggle.setAttribute('aria-label', navigation?.classList.contains('mobile-open') ? (currentLanguage === 'en' ? 'Close menu' : currentLanguage === 'es' ? 'Cerrar menú' : 'Fechar menu') : (currentLanguage === 'en' ? 'Open menu' : currentLanguage === 'es' ? 'Abrir menú' : 'Abrir menu')); if (window.lucide?.createIcons) window.lucide.createIcons();
   if (backToTop) { const label = currentLanguage === 'en' ? 'Back to top' : currentLanguage === 'es' ? 'Volver arriba' : 'Voltar ao topo'; backToTop.setAttribute('aria-label', label); backToTop.setAttribute('title', label); }
 };
