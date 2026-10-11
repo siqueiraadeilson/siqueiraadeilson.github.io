@@ -2,7 +2,7 @@
 
 > Portfólio de Adeilson Siqueira, desenvolvedor e engenheiro de produto (product engineer) baseado em São Paulo, Brasil. Constrói produtos digitais, software aberto e ferramentas com React, TypeScript, Node.js e Electron.
 
-Site em português (pt-BR), com seções em inglês e espanhol. Última atualização: setembro de 2026.
+Site em português (pt-BR), com seções em inglês e espanhol. Última atualização: outubro de 2026.
 
 ## Sobre
 
@@ -17,7 +17,9 @@ Adeilson Siqueira é desenvolvedor e engenheiro de produto. Trabalha entre a arq
 - [Gamium](https://github.com/adessuquinho/gamium): aplicativo de comunicação descentralizada, criptografada e P2P — Electron, React, TypeScript, Vite, Gun.js e WebRTC.
 - [Auto Best Enchantments](https://modrinth.com/mod/auto-best-enchantments): mod de Minecraft (Fabric) que automatiza o ciclo do bibliotecário até encontrar o livro e o preço ideais. Mais de 1,8 mil downloads.
 - [Librarian Books Preview](https://modrinth.com/mod/librarian-books-preview): mod de Minecraft que mostra até três trocas do bibliotecário em tempo real. Licença MIT.
+- [Steal Mutant Pet](https://www.roblox.com/pt/games/110802570526231/Steal-Mutant-Pet): jogo de tycoon multijogador no Roblox — roube ovos, descubra mutações e construa um império de pets mutantes. Em beta.
 - [some-windows-scripts](https://github.com/adessuquinho/some-windows-scripts): 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows. Licença MIT.
+- [Ponteiro Studio](https://ponteirostudio.vercel.app/): editor web para criar cursores de mouse em pixel art 64 × 64 — desenhe ou importe PNG/GIF, ajuste cores e ponto de clique, teste ao vivo e exporte em PNG.
 
 ## Stack
 
