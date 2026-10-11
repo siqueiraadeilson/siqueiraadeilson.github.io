@@ -56,7 +56,8 @@ const setLanguage = language => {
   document.documentElement.lang = t.lang;
   document.querySelector('#language-select').value = currentLanguage;
   document.querySelector('.language-flag').className = `fi fi-${currentLanguage === 'en' ? 'us' : currentLanguage === 'es' ? 'es' : 'br'} language-flag`;
-  document.querySelectorAll('.nav-links a').forEach((link, index) => { link.innerHTML = t.nav[index]; });
+  document.querySelectorAll('.nav-links > a').forEach((link, index) => { link.innerHTML = t.nav[index]; });
+  document.querySelector('.language-label').textContent = currentLanguage === 'en' ? 'Language' : 'Idioma';
   const whatsappLabel = currentLanguage === 'en' ? 'via WhatsApp' : currentLanguage === 'es' ? 'por WhatsApp' : 'pelo WhatsApp';
   setText('.available', `<i data-lucide="message-circle" aria-hidden="true"></i> ${t.available} <span class="sr-only">${whatsappLabel}</span>`); setText('.hero-kicker span:last-child', t.heroKicker); setText('.intro-label', t.intro); setText('.hero h1', t.title); setText('.hero-text', t.heroText); setText('.text-link', `${t.explore} <i data-lucide="arrow-down-right"></i>`); setText('.scroll-cue span', t.scroll);
   document.querySelectorAll('.hero-data span').forEach((element, index) => { element.innerHTML = `<b>0${index + 1}</b> ${t.data[index]}`; }); document.querySelectorAll('.hero-footnote span').forEach((element, index) => { if (index !== 1) element.textContent = t.footnote[index === 0 ? 0 : 1]; });
@@ -130,7 +131,7 @@ const closeMobileMenu = () => {
   if (window.lucide?.createIcons) window.lucide.createIcons();
 };
 menuToggle.setAttribute('aria-expanded', 'false');
-menuToggle.addEventListener('click', () => {
+menuToggle.addEventListener('click', event => {
   const isOpen = navigation.classList.toggle('mobile-open');
   navigation.style.display = isOpen ? 'grid' : '';
   menuToggle.setAttribute('aria-expanded', String(isOpen));
@@ -138,8 +139,8 @@ menuToggle.addEventListener('click', () => {
   menuToggle.innerHTML = `<i data-lucide="${isOpen ? 'x' : 'menu'}"></i>`;
   if (window.lucide?.createIcons) window.lucide.createIcons();
 });
-document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', closeMobileMenu));
-document.addEventListener('click', event => { if (navigation.classList.contains('mobile-open') && !navigation.contains(event.target) && !menuToggle.contains(event.target)) closeMobileMenu(); });
+document.querySelectorAll('.nav-links > a').forEach(link => link.addEventListener('click', closeMobileMenu));
+document.addEventListener('click', event => { const eventPath = event.composedPath(); if (navigation.classList.contains('mobile-open') && !eventPath.includes(navigation) && !eventPath.includes(menuToggle)) closeMobileMenu(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('mobile-open')) closeMobileMenu(); });
 document.querySelector('#language-select').addEventListener('change', event => setLanguage(event.target.value));
 setLanguage(currentLanguage);
