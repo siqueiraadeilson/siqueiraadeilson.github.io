@@ -20,6 +20,7 @@ Adeilson Siqueira é desenvolvedor e engenheiro de produto. Trabalha entre a arq
 - [Steal Mutant Pet](https://www.roblox.com/pt/games/110802570526231/Steal-Mutant-Pet): jogo de tycoon multijogador no Roblox — roube ovos, descubra mutações e construa um império de pets mutantes. Em beta.
 - [some-windows-scripts](https://github.com/adessuquinho/some-windows-scripts): 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows. Licença MIT.
 - [Ponteiro Studio](https://ponteirostudio.vercel.app/): editor web para criar cursores de mouse em pixel art 64 × 64 — desenhe ou importe PNG/GIF, ajuste cores e ponto de clique, teste ao vivo e exporte em PNG.
+- [Luable](https://luable.vercel.app/): plataforma de ensino gamificada para aprender a programar jogos no Roblox com Lua e Luau — 16 módulos, 132 lições curtas, IDE no navegador, desafios corrigidos na hora e certificado.
 
 ## Stack
 

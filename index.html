@@ -98,7 +98,8 @@
             {"@type":"ListItem","position":4,"item":{"@type":"SoftwareApplication","name":"Librarian Books Preview","url":"https://modrinth.com/mod/librarian-books-preview","applicationCategory":"Mod de Minecraft (Fabric)","license":"https://spdx.org/licenses/MIT.html","description":"Mod que mostra até três trocas do bibliotecário em tempo real, com custo exato em esmeraldas. Mais de 1,7 mil downloads.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}},
             {"@type":"ListItem","position":5,"item":{"@type":"VideoGame","name":"Steal Mutant Pet","url":"https://www.roblox.com/pt/games/110802570526231/Steal-Mutant-Pet","image":"https://siqueiraadeilson.github.io/assets/roblox/steal-mutant-pet-thumb.webp","gamePlatform":["PC","Console","Mobile","Tablet"],"genre":["Simulation","Tycoon"],"playMode":"MultiPlayer","description":"Jogo de tycoon multijogador no Roblox: roube ovos, descubra mutações e construa um império de pets mutantes. Em beta, com servidores de até 6 jogadores.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}},
             {"@type":"ListItem","position":6,"item":{"@type":"SoftwareSourceCode","name":"some-windows-scripts","codeRepository":"https://github.com/adessuquinho/some-windows-scripts","programmingLanguage":"Batch","license":"https://spdx.org/licenses/MIT.html","description":"Coleção de 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}},
-            {"@type":"ListItem","position":7,"item":{"@type":"WebApplication","name":"Ponteiro Studio","url":"https://ponteirostudio.vercel.app/","applicationCategory":"DesignApplication","description":"Editor web para criar cursores de mouse em pixel art 64 × 64, importar PNG/GIF, personalizar cores e ponto de clique, testar ao vivo e exportar PNG.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}}
+            {"@type":"ListItem","position":7,"item":{"@type":"WebApplication","name":"Ponteiro Studio","url":"https://ponteirostudio.vercel.app/","applicationCategory":"DesignApplication","description":"Editor web para criar cursores de mouse em pixel art 64 × 64, importar PNG/GIF, personalizar cores e ponto de clique, testar ao vivo e exportar PNG.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}},
+            {"@type":"ListItem","position":8,"item":{"@type":"WebApplication","name":"Luable","url":"https://luable.vercel.app/","applicationCategory":"EducationalApplication","description":"Plataforma de ensino gamificada para aprender a programar jogos no Roblox com Lua e Luau: 16 módulos, 132 lições, IDE no navegador, desafios corrigidos na hora e certificado.","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}}
           ]
         }
       ]
@@ -149,6 +150,26 @@
     .pointer-studio-canvas{width:clamp(108px,15vw,148px);aspect-ratio:1;display:grid;place-items:center;background-color:#242923;background-image:linear-gradient(45deg,#2d332c 25%,transparent 25%),linear-gradient(-45deg,#2d332c 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#2d332c 75%),linear-gradient(-45deg,transparent 75%,#2d332c 75%);background-size:16px 16px;background-position:0 0,0 8px,8px -8px,-8px 0;border:1px solid rgba(201,242,105,.25)}
     .pointer-studio-canvas img{width:72%;height:72%;object-fit:contain;filter:drop-shadow(0 7px 10px rgba(0,0,0,.5));transform:rotate(-8deg)}
     .pointer-studio-colors{display:flex;gap:5px}.pointer-studio-colors i{width:9px;height:9px;border:1px solid rgba(255,255,255,.55);border-radius:50%}.pointer-studio-colors i:nth-child(1){background:#c9f269}.pointer-studio-colors i:nth-child(2){background:#f4f2e9}.pointer-studio-colors i:nth-child(3){background:#ff745e}.pointer-studio-colors i:nth-child(4){background:#86a8ff}
+    .visual-luable{display:grid;grid-template-rows:auto 1fr auto;gap:12px;padding:20px;background-color:#241354;background-image:radial-gradient(circle at 12% 18%,#ffd23f 0 1px,transparent 2px),radial-gradient(circle at 88% 76%,#c9b8ff 0 1px,transparent 2px),linear-gradient(145deg,#1b0f3d 15%,#3a2390 68%,#6c4df6);background-size:38px 38px,52px 52px,100% 100%;color:#f6f2ff}
+    .luable-bar,.luable-readout{display:flex;align-items:center;justify-content:space-between;gap:10px;font:9px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:#c9bcff}
+    .luable-brand{display:flex;align-items:center;gap:7px;color:#fff;font:800 14px var(--display);letter-spacing:-.03em;text-transform:none}
+    .luable-brand img{width:24px;height:24px;object-fit:contain;padding:2px;border-radius:7px;background:#fff;box-shadow:0 0 0 1px rgba(255,255,255,.22)}
+    .luable-stage{position:relative;display:flex;align-items:center;min-height:0}
+    .luable-lesson{position:relative;z-index:1;width:calc(100% - 60px);padding:11px 13px;border-radius:10px;background:#fbf8ff;color:#241a4d;box-shadow:0 16px 28px rgba(9,3,34,.34);transition:transform .45s cubic-bezier(.2,.75,.25,1),box-shadow .45s ease}
+    .luable-lesson-top{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:1px solid #e2d9f7;font:8px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:#6b5c96}
+    .luable-lesson-top b{color:#6c4df6;font-weight:500}
+    .luable-code{display:grid;gap:3px;margin-top:9px;font:8px/1.55 var(--mono);white-space:nowrap;overflow:hidden;color:#3a2c6b}
+    .luable-code b{color:#6c4df6;font-weight:500}
+    .luable-code em{color:#b35a00;font-style:normal}
+    .luable-check{display:flex;align-items:center;gap:6px;margin-top:9px;padding-top:8px;border-top:1px dashed #dcd1f4;font:8px var(--mono);letter-spacing:.03em;text-transform:uppercase;color:#2f7d4f}
+    .luable-check i{display:grid;place-items:center;width:13px;height:13px;flex:none;border-radius:50%;background:#54c78b;color:#0c2b1b;font:700 8px var(--mono);font-style:normal}
+    .luable-mascot{position:absolute;right:-2px;bottom:2px;width:64px;height:64px;object-fit:contain;padding:2px;border-radius:14px;background:#fff;box-shadow:0 14px 24px rgba(9,3,34,.34);transform:rotate(5deg);transition:transform .45s cubic-bezier(.2,.75,.25,1)}
+    .luable-progress{width:54px;height:3px;flex:none;border-radius:2px;background:rgba(255,255,255,.18);overflow:hidden}
+    .luable-progress i{display:block;width:62%;height:100%;background:#ffd23f}
+    .luable-readout>span:first-child{display:inline-flex;align-items:center;gap:7px}
+    .project:hover .visual-luable .luable-lesson{transform:translateY(-4px) rotate(-.6deg);box-shadow:0 20px 34px rgba(9,3,34,.44)}
+    .project:hover .visual-luable .luable-mascot{transform:rotate(-3deg) translateY(-3px)}
+    @media (max-width:800px){.visual-luable{padding:16px;gap:9px}.luable-bar,.luable-readout{font-size:7px}.luable-brand{font-size:12px}.luable-brand img{width:20px;height:20px}.luable-lesson{width:calc(100% - 50px);padding:9px 10px}.luable-code{font-size:7px;gap:2px;margin-top:7px}.luable-check{font-size:7px;margin-top:7px;padding-top:6px}.luable-mascot{width:54px;height:54px;border-radius:12px}.luable-progress{width:40px}}
     .gamium-icon{position:absolute;width:112px;height:112px;object-fit:contain;right:22px;top:22px;z-index:1;border-radius:24px;box-shadow:0 12px 30px rgba(0,0,0,.3)}
     @media (max-width:800px){.visual-squood .visual-word{font-size:1.2rem;letter-spacing:-.1em}}
     .visual-squood .visual-caption{position:absolute;left:25px;bottom:20px;z-index:2;margin:0}
@@ -321,7 +342,7 @@
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Voltar ao início"><span>AS</span><small>adeilson<br>siqueira</small></a>
     <nav class="nav-links" aria-label="Navegação principal">
-      <a href="#work">Projetos <sup>07</sup></a>
+      <a href="#work">Projetos <sup>08</sup></a>
       <a href="#approach">Abordagem</a>
       <a href="#contact">Contato</a>
       <div class="mobile-menu-tools">
@@ -361,10 +382,10 @@
     <section class="work section-wrap" id="work">
       <div class="section-heading"><div><span class="eyebrow">01 / PROJETOS SELECIONADOS</span><h2>Coisas que<br><em>ganharam forma.</em></h2></div><p>Uma seleção de produtos e ferramentas feitos com intenção: alguns para muita gente, outros para resolver uma terça-feira específica.</p></div>
       <div class="filter-row" role="tablist" aria-label="Filtrar projetos">
-        <button class="filter active" data-filter="all" role="tab" aria-selected="true" aria-controls="project-list">Tudo <span aria-hidden="true">07</span></button>
-        <button class="filter" data-filter="product" role="tab" aria-selected="false" aria-controls="project-list">Produto <span aria-hidden="true">03</span></button>
+        <button class="filter active" data-filter="all" role="tab" aria-selected="true" aria-controls="project-list">Tudo <span aria-hidden="true">08</span></button>
+        <button class="filter" data-filter="product" role="tab" aria-selected="false" aria-controls="project-list">Produto <span aria-hidden="true">04</span></button>
         <button class="filter" data-filter="open-source" role="tab" aria-selected="false" aria-controls="project-list">Open source <span aria-hidden="true">03</span></button>
-        <button class="filter" data-filter="roblox" role="tab" aria-selected="false" aria-controls="project-list">Roblox <span aria-hidden="true">01</span></button>
+        <button class="filter" data-filter="roblox" role="tab" aria-selected="false" aria-controls="project-list">Roblox <span aria-hidden="true">02</span></button>
         <button class="filter" data-filter="mods" role="tab" aria-selected="false" aria-controls="project-list">Mods <span aria-hidden="true">02</span></button>
       </div>
       <div class="project-list" id="project-list">
@@ -395,6 +416,10 @@
         <article class="project" data-category="product" data-project="ponteiroStudio">
           <div class="project-index">07</div><div class="project-visual visual-pointer-studio"><div class="pointer-studio-bar"><div class="pointer-studio-brand"><img src="assets/ponteiro-icon.svg" alt="" width="64" height="64" loading="lazy" decoding="async">ponteiro.</div><span>CURSOR STUDIO</span></div><div class="pointer-studio-stage"><div class="pointer-studio-canvas"><img src="assets/ponteiro-icon.svg" alt="Cursor pixelado verde-lima" width="64" height="64" loading="lazy" decoding="async"></div></div><div class="pointer-studio-readout"><span class="pointer-studio-colors" aria-label="Paleta de cores"><i></i><i></i><i></i><i></i></span><span>64 × 64 / PNG</span></div></div>
           <div class="project-info"><div><span class="project-type">PRODUTO DIGITAL · CURSOR STUDIO</span><h3>Ponteiro Studio</h3><p>Um editor web para criar cursores personalizados: desenhe em pixel art, ajuste cores e ponto de clique, teste ao vivo e exporte para usar no computador.</p></div><div class="project-meta"><span>Pixel art 64 × 64</span><span>Importa PNG / GIF</span><span>Exporta PNG</span></div><button class="details-button">ver estudo <i data-lucide="arrow-up-right"></i></button></div>
+        </article>
+        <article class="project" data-category="product roblox" data-project="luable">
+          <div class="project-index">08</div><div class="project-visual visual-luable"><div class="luable-bar"><div class="luable-brand"><img src="assets/luable-icon.png" alt="" width="192" height="192" loading="lazy" decoding="async">luable.</div><span>ROBLOX / LUA(U)</span></div><div class="luable-stage"><div class="luable-lesson"><div class="luable-lesson-top"><span>LIÇÃO 12 / 132</span><b>+40 XP</b></div><div class="luable-code"><span><b>local</b> lumi = Instance.new(<em>"Part"</em>)</span><span>lumi.Size = Vector3.new(<b>4</b>,<b>4</b>,<b>4</b>)</span><span>lumi.Parent = workspace</span></div><div class="luable-check"><i>✓</i> desafio corrigido na hora</div></div><img class="luable-mascot" src="assets/luable-icon.png" alt="Lumi, mascote do Luable" width="192" height="192" loading="lazy" decoding="async"></div><div class="luable-readout"><span><span class="luable-progress"><i></i></span>MÓDULO 03 / 16</span><span>CERTIFICADO PDF</span></div></div>
+          <div class="project-info"><div><span class="project-type">PRODUTO DIGITAL · EDUCAÇÃO</span><h3>Luable</h3><p>Uma trilha gamificada para aprender a programar jogos no Roblox com Lua e Luau: lições curtas, desafios corrigidos na hora, IDE no navegador e certificado.</p></div><div class="project-meta"><span>16 módulos</span><span>132 lições</span><span>Certificado</span></div><button class="details-button">ver estudo <i data-lucide="arrow-up-right"></i></button></div>
         </article>
       </div>
     </section>
