@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponteiro Studio — Estudo de caso de editor de cursores</title>
+  <meta name="description" content="Como foi construído o Ponteiro Studio, editor web de cursores de mouse em pixel art: desenho 64 × 64, importação de GIF e exportação em PNG, CUR e ANI.">
+  <meta name="author" content="Adeilson Siqueira">
+  <link rel="canonical" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/">
+  <link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/">
+  <link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/ponteiro-studio/">
+  <link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/ponteiro-studio/">
+  <link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/">
+  <link rel="me" href="https://github.com/siqueiraadeilson">
+  <link rel="me" href="https://www.linkedin.com/in/siqueiraadeilson/">
+  <link rel="me" href="https://modrinth.com/user/adesdot">
+  <link rel="me" href="https://www.behance.net/siqueiraadeilson">
+  <link rel="me" href="https://www.fiverr.com/sikzgmg">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="google-site-verification" content="iK6BRmXtKDQc3uhSTgmrP05tfrVpTY863lTMtWScFUM" />
+  <meta name="theme-color" content="#111313">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Adeilson Siqueira">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:url" content="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/">
+  <meta property="og:title" content="Ponteiro Studio — Estudo de caso de editor de cursores">
+  <meta property="og:description" content="Como foi construído o Ponteiro Studio, editor web de cursores de mouse em pixel art: desenho 64 × 64, importação de GIF e exportação em PNG, CUR e ANI.">
+  <meta property="og:image" content="https://siqueiraadeilson.github.io/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Adeilson Siqueira — Desenvolvedor Full Stack e Product Engineer, portfólio.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ponteiro Studio — Estudo de caso de editor de cursores">
+  <meta name="twitter:description" content="Como foi construído o Ponteiro Studio, editor web de cursores de mouse em pixel art: desenho 64 × 64, importação de GIF e exportação em PNG, CUR e ANI.">
+  <meta name="twitter:image" content="https://siqueiraadeilson.github.io/og-cover.png">
+  <meta name="twitter:image:alt" content="Adeilson Siqueira — Desenvolvedor Full Stack e Product Engineer, portfólio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"><style>.page-loader{display:none!important}</style></noscript>
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://siqueiraadeilson.github.io/#person","name":"Adeilson Siqueira","url":"https://siqueiraadeilson.github.io/","sameAs":["https://github.com/siqueiraadeilson","https://www.linkedin.com/in/siqueiraadeilson/","https://modrinth.com/user/adesdot","https://www.behance.net/siqueiraadeilson","https://www.fiverr.com/sikzgmg"]},{"@type":"WebPage","@id":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/#webpage","url":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/","name":"Ponteiro Studio — Estudo de caso de editor de cursores","description":"Como foi construído o Ponteiro Studio, editor web de cursores de mouse em pixel art: desenho 64 × 64, importação de GIF e exportação em PNG, CUR e ANI.","inLanguage":"pt-BR","dateModified":"2026-10-30","isPartOf":{"@id":"https://siqueiraadeilson.github.io/#website"},"about":{"@id":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/#project"},"author":{"@id":"https://siqueiraadeilson.github.io/#person"},"breadcrumb":{"@id":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://siqueiraadeilson.github.io/"},{"@type":"ListItem","position":2,"name":"Projetos","item":"https://siqueiraadeilson.github.io/#work"},{"@type":"ListItem","position":3,"name":"Ponteiro Studio","item":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"}]},{"@type":"WebApplication","applicationCategory":"DesignApplication","operatingSystem":"Web","url":"https://ponteirostudio.vercel.app/","@id":"https://siqueiraadeilson.github.io/projetos/ponteiro-studio/#project","name":"Ponteiro Studio","description":"Como foi construído o Ponteiro Studio, editor web de cursores de mouse em pixel art: desenho 64 × 64, importação de GIF e exportação em PNG, CUR e ANI.","inLanguage":"pt-BR","author":{"@id":"https://siqueiraadeilson.github.io/#person"}}]}</script>
+</head>
+<body class="case-page">
+  <a class="skip-link" href="#conteudo">Pular para os projetos</a>
+  <header class="site-header case-header">
+    <a class="brand" href="/" aria-label="Voltar ao início"><span>AS</span><small>adeilson<br>siqueira</small></a>
+    <nav class="case-nav" aria-label="Navegação principal"><a href="/#work">Projetos</a><a href="/#contact">Contato</a></nav>
+    <div class="header-actions"><label class="language-picker" for="language-select"><span class="sr-only">Idioma</span><span class="language-label" aria-hidden="true">Idioma</span><span class="fi fi-br language-flag" aria-hidden="true"></span><select id="language-select" aria-label="Idioma"><option value="pt-BR" data-href="/projetos/ponteiro-studio/" selected>PT</option><option value="en" data-href="/en/projects/ponteiro-studio/">EN</option><option value="es" data-href="/es/proyectos/ponteiro-studio/">ES</option></select></label><button class="icon-button" id="theme-toggle" aria-label="Alternar tema" title="Alternar tema"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v2"/><path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715"/><path d="M16 12a4 4 0 0 0-4-4"/><path d="m19 5-1.256 1.256"/><path d="M20 12h2"/></svg></button></div>
+  </header>
+  <main class="case section-wrap" id="conteudo">
+    <nav class="breadcrumb" aria-label="Trilha de navegação"><ol><li><a href="/">Início</a></li><li><a href="/#work">Projetos</a></li><li aria-current="page">Ponteiro Studio</li></ol></nav>
+    <div class="case-hero">
+      <div><span class="eyebrow">PRODUTO DIGITAL / CURSOR STUDIO</span><h1>Ponteiro Studio: editor web para criar cursores de mouse personalizados</h1><p class="case-lead">Um editor web para criar cursores personalizados em pixel art. Desenhe em uma grade 64 × 64 ou importe PNG/GIF, personalize cores e escala, defina o ponto de clique, teste na prévia 3D e exporte em PNG, CUR ou ANI.</p><a class="text-link" href="https://ponteirostudio.vercel.app/" target="_blank" rel="noopener">Abrir projeto <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></div>
+      <div class="project-visual visual-pointer-studio"><div class="pointer-studio-bar"><div class="pointer-studio-brand"><img src="/assets/ponteiro-icon.svg" alt="" width="64" height="64" loading="lazy" decoding="async">ponteiro.</div><span>CURSOR STUDIO</span></div><div class="pointer-studio-stage"><div class="pointer-studio-canvas"><img src="/assets/ponteiro-icon.svg" alt="Cursor pixelado verde-lima" width="64" height="64" loading="lazy" decoding="async"></div></div><div class="pointer-studio-readout"><span class="pointer-studio-colors" role="img" aria-label="Paleta de cores"><i></i><i></i><i></i><i></i></span><span>64 × 64 / PNG</span></div></div>
+    </div>
+    <section class="case-section"><h2>Ficha do projeto</h2><dl class="case-facts"><div><dt>Tipo</dt><dd>Aplicação web</dd></div><div><dt>Canvas</dt><dd>Pixel art 64 × 64</dd></div><div><dt>Importa</dt><dd>PNG e GIF animado</dd></div><div><dt>Exporta</dt><dd>PNG, CUR e ANI</dd></div></dl></section>
+    <section class="case-section"><h2>Destaques</h2><ul class="case-list"><li>Editor com lápis, borracha, limpeza, formas rápidas e redesenho de formas</li><li>Cores independentes para cursor, contorno e lápis, incluindo valores personalizados</li><li>Ponto de clique predefinido ou escolhido no desenho, com prévia ao vivo</li></ul></section>
+    <section class="case-section"><h2>Do desenho ao cursor no computador</h2><ol class="case-steps"><li>Desenhe em uma grade de 64 × 64 ou importe um PNG ou GIF animado</li><li>Ajuste as cores do cursor, do contorno e do lápis</li><li>Escolha o ponto de clique, predefinido ou marcado no desenho</li><li>Teste na prévia ao vivo</li><li>Exporte em PNG, CUR ou ANI</li></ol></section>
+    <section class="case-section"><h2>Decisões de produto</h2><p>Criar um cursor costuma exigir um editor de imagem e um conversor à parte. O Ponteiro Studio reúne as etapas no navegador e trata o ponto de clique como parte da criação, porque é ele que define se o cursor funciona bem no uso real.</p></section>
+    <section class="case-section"><h2>Outros projetos</h2><div class="case-related"><a href="/projetos/luable/"><span>PRODUTO DIGITAL / EDUCAÇÃO</span><strong>Luable</strong></a><a href="/projetos/squood/"><span>PRODUTO DIGITAL / 2026</span><strong>Squood</strong></a><a href="/projetos/some-windows-scripts/"><span>FERRAMENTAS / WINDOWS</span><strong>some-windows-scripts</strong></a></div><a class="text-link" href="/#work">Ver todos os projetos <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></section>
+    <section class="case-cta"><h2>Quer construir algo assim?</h2><p>Estou disponível para novos projetos e respondo em até 48h.</p><a class="contact-email" href="mailto:siqueiraadeilson@gmail.com">siqueiraadeilson@gmail.com <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></section>
+  </main>
+  <footer class="case-footer section-wrap"><p>Projeto de Adeilson Siqueira, desenvolvedor full stack em São Paulo.</p><nav class="lang-links" aria-label="Idioma"><a href="/projetos/ponteiro-studio/" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a><a href="/en/projects/ponteiro-studio/" hreflang="en" lang="en">English</a><a href="/es/proyectos/ponteiro-studio/" hreflang="es" lang="es">Español</a></nav><span>© 2026 AS</span></footer>
+  <script src="/script.js" defer></script>
+</body>
+</html>

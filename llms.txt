@@ -1,34 +1,34 @@
 # Adeilson Siqueira — Portfólio
 
-> Portfólio de Adeilson Siqueira, desenvolvedor e engenheiro de produto (product engineer) baseado em São Paulo, Brasil. Constrói produtos digitais, software aberto e ferramentas com React, TypeScript, Node.js e Electron.
+> Portfólio de Adeilson Siqueira, desenvolvedor full stack e engenheiro de produto (product engineer) baseado em São Paulo, Brasil. Constrói produtos digitais, software aberto e ferramentas com React, TypeScript, Node.js e Electron, além de mods de Minecraft e jogos no Roblox.
 
-Site em português (pt-BR), com seções em inglês e espanhol. Última atualização: outubro de 2026.
+Site em português (pt-BR), inglês (/en/) e espanhol (/es/). Última atualização: outubro de 2026.
 
 ## Sobre
 
-Adeilson Siqueira é desenvolvedor e engenheiro de produto. Trabalha entre a arquitetura e a interface: desenha o sistema, escreve o código e acompanha o produto até o uso. Atua de forma remota a partir de São Paulo, Brasil.
+Adeilson Siqueira é desenvolvedor full stack e engenheiro de produto. Trabalha entre a arquitetura e a interface: desenha o sistema, escreve o código e acompanha o produto até o uso. Atua de forma remota a partir de São Paulo, Brasil.
 
 - Contato: siqueiraadeilson@gmail.com
 - Disponível para novos projetos (resposta em até 48h)
 
 ## Projetos
 
-- [Squood](https://squood.com): plataforma social focada em comunidades, construída com privacidade como princípio. Fundador e engenheiro de produto (2026).
-- [Gamium](https://github.com/adessuquinho/gamium): aplicativo de comunicação descentralizada, criptografada e P2P — Electron, React, TypeScript, Vite, Gun.js e WebRTC.
-- [Auto Best Enchantments](https://modrinth.com/mod/auto-best-enchantments): mod de Minecraft (Fabric) que automatiza o ciclo do bibliotecário até encontrar o livro e o preço ideais. Mais de 1,8 mil downloads.
-- [Librarian Books Preview](https://modrinth.com/mod/librarian-books-preview): mod de Minecraft que mostra até três trocas do bibliotecário em tempo real. Licença MIT.
-- [Steal Mutant Pet](https://www.roblox.com/pt/games/110802570526231/Steal-Mutant-Pet): jogo de tycoon multijogador no Roblox — roube ovos, descubra mutações e construa um império de pets mutantes. Em beta.
-- [some-windows-scripts](https://github.com/adessuquinho/some-windows-scripts): 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows. Licença MIT.
-- [Ponteiro Studio](https://ponteirostudio.vercel.app/): editor web para criar cursores de mouse em pixel art 64 × 64 — desenhe ou importe PNG/GIF, ajuste cores e ponto de clique, teste ao vivo e exporte em PNG.
-- [Luable](https://luable.vercel.app/): plataforma de ensino gamificada para aprender a programar jogos no Roblox com Lua e Luau — 16 módulos, 132 lições curtas, IDE no navegador, desafios corrigidos na hora e certificado.
+- [Squood](https://siqueiraadeilson.github.io/projetos/squood/): plataforma social de comunidades, posts e conversas, construída com privacidade como princípio. Fundador e engenheiro de produto (2026). Site: https://squood.com
+- [Gamium](https://siqueiraadeilson.github.io/projetos/gamium/): aplicativo desktop de comunicação descentralizada, criptografada e P2P — Electron, React, TypeScript, Vite, Gun.js e WebRTC. Código: https://github.com/siqueiraadeilson/gamium
+- [Auto Best Enchantments](https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/): mod de Minecraft (Fabric) que automatiza o ciclo do bibliotecário até encontrar o livro e o preço ideais. Mais de 2,6 mil downloads. Download: https://modrinth.com/mod/auto-best-enchantments
+- [Librarian Books Preview](https://siqueiraadeilson.github.io/projetos/librarian-books-preview/): mod de Minecraft (Fabric) que mostra até três trocas do bibliotecário em tempo real. Mais de 2,2 mil downloads. Licença MIT. Download: https://modrinth.com/mod/librarian-books-preview
+- [Steal Mutant Pet](https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/): jogo de tycoon multijogador no Roblox — roube ovos, descubra mutações e construa um império de pets mutantes. Em beta. Jogar: https://www.roblox.com/pt/games/110802570526231/Steal-Mutant-Pet
+- [some-windows-scripts](https://siqueiraadeilson.github.io/projetos/some-windows-scripts/): 13 scripts Batch autocontidos para rede, áudio, impressão, updates e manutenção do Windows. Licença MIT. Código: https://github.com/siqueiraadeilson/some-windows-scripts
+- [Ponteiro Studio](https://siqueiraadeilson.github.io/projetos/ponteiro-studio/): editor web para criar cursores de mouse em pixel art 64 × 64 — desenhe ou importe PNG/GIF, ajuste cores e ponto de clique, teste ao vivo e exporte em PNG, CUR ou ANI. Site: https://ponteirostudio.vercel.app/
+- [Luable](https://siqueiraadeilson.github.io/projetos/luable/): plataforma de ensino gamificada para aprender a programar jogos no Roblox com Lua e Luau — 16 módulos, 132 lições curtas, IDE no navegador, desafios corrigidos na hora e certificado. Site: https://luable.vercel.app/
 
 ## Stack
 
-React, TypeScript, JavaScript, Node.js, Electron, Vite, Gun.js, WebRTC, Zustand, Java (Fabric), Batch.
+React, TypeScript, JavaScript, Node.js, Electron, Vite, Gun.js, WebRTC, Zustand, Java (Fabric), Lua/Luau, Batch.
 
 ## Perfis
 
-- GitHub: https://github.com/adessuquinho
+- GitHub: https://github.com/siqueiraadeilson
 - LinkedIn: https://www.linkedin.com/in/siqueiraadeilson/
 - Modrinth: https://modrinth.com/user/adesdot
 - Behance: https://www.behance.net/siqueiraadeilson
@@ -36,4 +36,7 @@ React, TypeScript, JavaScript, Node.js, Electron, Vite, Gun.js, WebRTC, Zustand,
 
 ## Conteúdo do site
 
-- [Página principal](https://siqueiraadeilson.github.io/): portfólio completo, com hero, projetos selecionados, abordagem de trabalho, sobre/stack e contato.
+- [Página principal](https://siqueiraadeilson.github.io/): portfólio completo, com projetos selecionados, abordagem de trabalho, sobre, perguntas frequentes e contato.
+- [English version](https://siqueiraadeilson.github.io/en/)
+- [Versión en español](https://siqueiraadeilson.github.io/es/)
+- [Sitemap](https://siqueiraadeilson.github.io/sitemap.xml)

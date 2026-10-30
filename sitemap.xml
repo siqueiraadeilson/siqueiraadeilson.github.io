@@ -1,9 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://siqueiraadeilson.github.io/</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/squood/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/squood/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/gamium/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/librarian-books-preview/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/some-windows-scripts/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/ponteiro-studio/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/projetos/luable/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/luable/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/squood/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/squood/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/gamium/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/auto-best-enchantments/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/librarian-books-preview/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/steal-mutant-pet/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/some-windows-scripts/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/ponteiro-studio/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/en/projects/luable/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/luable/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/squood/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/squood/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/squood/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/squood/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/gamium/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/gamium/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/gamium/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/auto-best-enchantments/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/auto-best-enchantments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/auto-best-enchantments/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/librarian-books-preview/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/librarian-books-preview/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/librarian-books-preview/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/steal-mutant-pet/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/steal-mutant-pet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/steal-mutant-pet/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/some-windows-scripts/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/some-windows-scripts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/some-windows-scripts/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/ponteiro-studio/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/ponteiro-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/ponteiro-studio/"/>
+  </url>
+  <url>
+    <loc>https://siqueiraadeilson.github.io/es/proyectos/luable/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siqueiraadeilson.github.io/en/projects/luable/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://siqueiraadeilson.github.io/es/proyectos/luable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siqueiraadeilson.github.io/projetos/luable/"/>
   </url>
 </urlset>
