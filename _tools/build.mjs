@@ -130,7 +130,7 @@ const homeGraph = (language, t) => {
     { '@type': 'WebSite', '@id': `${site}/#website`, url: `${site}/`, name: 'Adeilson Siqueira', alternateName: 'Portfólio de Adeilson Siqueira', inLanguage: languageKeys.map(key => languages[key].code), publisher: { '@id': person } },
     { '@type': 'ProfilePage', '@id': `${absolute(home)}#webpage`, url: absolute(home), name: t.seoTitle, description: t.seoDesc, inLanguage: code, dateModified: today, isPartOf: { '@id': `${site}/#website` }, mainEntity: { '@id': person }, about: { '@id': person } },
     {
-      '@type': 'Person', '@id': person, name: 'Adeilson Siqueira', alternateName: ['Adeilson', 'adesdot', 'siqueiraadeilson'], url: `${site}/`, image: `${site}/og-cover.png`,
+      '@type': 'Person', '@id': person, name: 'Adeilson Siqueira', alternateName: ['Adeilson', 'adesdot', 'siqueiraadeilson'], url: `${site}/`, image: `${site}/assets/adeilson-siqueira.webp`,
       jobTitle: t.jobTitle, description: t.personDesc, email: 'mailto:siqueiraadeilson@gmail.com',
       address: { '@type': 'PostalAddress', addressLocality: 'São Paulo', addressRegion: 'SP', addressCountry: 'BR' },
       knowsAbout: ['Desenvolvimento web', 'Desenvolvimento full stack', 'React', 'TypeScript', 'JavaScript', 'Node.js', 'Electron', 'Vite', 'WebRTC', 'Gun.js', 'Engenharia de produto', 'Software aberto', 'Minecraft modding', 'Fabric', 'Roblox', 'Lua', 'Luau'],
@@ -186,7 +186,7 @@ const projectGraph = (language, key, t, content, details) => {
   const url = absolute(caseUrl(language, key));
   const code = languages[language].code;
   return [
-    { '@type': 'Person', '@id': person, name: 'Adeilson Siqueira', url: `${site}/`, sameAs: profiles },
+    { '@type': 'Person', '@id': person, name: 'Adeilson Siqueira', url: `${site}/`, image: `${site}/assets/adeilson-siqueira.webp`, sameAs: profiles },
     { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: content.seoTitle, description: content.seoDesc, inLanguage: code, dateModified: today, isPartOf: { '@id': `${site}/#website` }, about: { '@id': `${url}#project` }, author: { '@id': person }, breadcrumb: { '@id': `${url}#breadcrumb` } },
     { '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: [{ '@type': 'ListItem', position: 1, name: t.home, item: absolute(languages[language].home) }, { '@type': 'ListItem', position: 2, name: t.projects, item: `${absolute(languages[language].home)}#work` }, { '@type': 'ListItem', position: 3, name: details.title, item: url }] },
     { ...projects[key].schema, '@id': `${url}#project`, name: details.title, description: content.seoDesc, inLanguage: code, author: { '@id': person } }

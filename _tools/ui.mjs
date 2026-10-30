@@ -32,7 +32,7 @@ export const seoUi = {
       ['Onde posso ver seu código?', 'Os repositórios públicos estão no <a href="https://github.com/siqueiraadeilson">GitHub</a> e os mods no <a href="https://modrinth.com/user/adesdot">Modrinth</a>. Cada projeto também tem uma página própria aqui no portfólio.']
     ],
     contactEyebrow: '05 / VAMOS CONVERSAR',
-    alt: { squood: 'Ícone do Squood', gamium: 'Ícone do Gamium', mods: 'Ícone do mod Auto Best Enchantments', librarian: 'Ícone do mod Librarian Books Preview', roblox: 'Miniatura do jogo Steal Mutant Pet', cursor: 'Cursor pixelado verde-lima', palette: 'Paleta de cores', lumi: 'Lumi, mascote do Luable' },
+    alt: { photo: 'Foto de Adeilson Siqueira', squood: 'Ícone do Squood', gamium: 'Ícone do Gamium', mods: 'Ícone do mod Auto Best Enchantments', librarian: 'Ícone do mod Librarian Books Preview', roblox: 'Miniatura do jogo Steal Mutant Pet', cursor: 'Cursor pixelado verde-lima', palette: 'Paleta de cores', lumi: 'Lumi, mascote do Luable' },
     visual: { squood: 'a internet pode<br>ser mais humana.', gamium: 'conversa sem<br>intermediários.', roblox: 'mutant pets.<br>impérios de ovos.', check: 'desafio corrigido na hora', lesson: 'LIÇÃO 12 / 132', module: 'MÓDULO 03 / 16', cert: 'CERTIFICADO PDF' },
     viewStudy: 'ver estudo', openProject: 'Abrir projeto', readCase: 'Ler estudo completo', home: 'Início', projects: 'Projetos', breadcrumb: 'Trilha de navegação', highlights: 'Destaques', related: 'Outros projetos', facts: 'Ficha do projeto', caseCta: 'Quer construir algo assim?', caseCtaText: 'Estou disponível para novos projetos e respondo em até 48h.', allProjects: 'Ver todos os projetos', madeBy: 'Projeto de Adeilson Siqueira, desenvolvedor full stack em São Paulo.'
   },
@@ -60,7 +60,7 @@ export const seoUi = {
       ['Where can I see your code?', 'Public repositories are on <a href="https://github.com/siqueiraadeilson">GitHub</a> and the mods are on <a href="https://modrinth.com/user/adesdot">Modrinth</a>. Each project also has its own page in this portfolio.']
     ],
     contactEyebrow: '05 / LET’S TALK',
-    alt: { squood: 'Squood icon', gamium: 'Gamium icon', mods: 'Auto Best Enchantments mod icon', librarian: 'Librarian Books Preview mod icon', roblox: 'Steal Mutant Pet game thumbnail', cursor: 'Lime green pixel cursor', palette: 'Color palette', lumi: 'Lumi, the Luable mascot' },
+    alt: { photo: 'Photo of Adeilson Siqueira', squood: 'Squood icon', gamium: 'Gamium icon', mods: 'Auto Best Enchantments mod icon', librarian: 'Librarian Books Preview mod icon', roblox: 'Steal Mutant Pet game thumbnail', cursor: 'Lime green pixel cursor', palette: 'Color palette', lumi: 'Lumi, the Luable mascot' },
     visual: { squood: 'the internet can<br>be more human.', gamium: 'talk without<br>middlemen.', roblox: 'mutant pets.<br>egg empires.', check: 'challenge checked instantly', lesson: 'LESSON 12 / 132', module: 'MODULE 03 / 16', cert: 'PDF CERTIFICATE' },
     viewStudy: 'view study', openProject: 'Open project', readCase: 'Read full case study', home: 'Home', projects: 'Projects', breadcrumb: 'Breadcrumb', highlights: 'Highlights', related: 'More projects', facts: 'Project facts', caseCta: 'Want to build something like this?', caseCtaText: 'I am available for new projects and reply within 48h.', allProjects: 'See all projects', madeBy: 'A project by Adeilson Siqueira, full stack developer in Brazil.'
   },
@@ -88,7 +88,7 @@ export const seoUi = {
       ['¿Dónde puedo ver tu código?', 'Los repositorios públicos están en <a href="https://github.com/siqueiraadeilson">GitHub</a> y los mods en <a href="https://modrinth.com/user/adesdot">Modrinth</a>. Cada proyecto también tiene su propia página en este portafolio.']
     ],
     contactEyebrow: '05 / HABLEMOS',
-    alt: { squood: 'Icono de Squood', gamium: 'Icono de Gamium', mods: 'Icono del mod Auto Best Enchantments', librarian: 'Icono del mod Librarian Books Preview', roblox: 'Miniatura del juego Steal Mutant Pet', cursor: 'Cursor pixelado verde lima', palette: 'Paleta de colores', lumi: 'Lumi, la mascota de Luable' },
+    alt: { photo: 'Foto de Adeilson Siqueira', squood: 'Icono de Squood', gamium: 'Icono de Gamium', mods: 'Icono del mod Auto Best Enchantments', librarian: 'Icono del mod Librarian Books Preview', roblox: 'Miniatura del juego Steal Mutant Pet', cursor: 'Cursor pixelado verde lima', palette: 'Paleta de colores', lumi: 'Lumi, la mascota de Luable' },
     visual: { squood: 'internet puede<br>ser más humana.', gamium: 'conversa sin<br>intermediarios.', roblox: 'mutant pets.<br>imperios de huevos.', check: 'desafío corregido al instante', lesson: 'LECCIÓN 12 / 132', module: 'MÓDULO 03 / 16', cert: 'CERTIFICADO PDF' },
     viewStudy: 'ver estudio', openProject: 'Abrir proyecto', readCase: 'Leer estudio completo', home: 'Inicio', projects: 'Proyectos', breadcrumb: 'Ruta de navegación', highlights: 'Aspectos destacados', related: 'Otros proyectos', facts: 'Ficha del proyecto', caseCta: '¿Quieres construir algo así?', caseCtaText: 'Estoy disponible para nuevos proyectos y respondo en 48 h.', allProjects: 'Ver todos los proyectos', madeBy: 'Proyecto de Adeilson Siqueira, desarrollador full stack en Brasil.'
   }

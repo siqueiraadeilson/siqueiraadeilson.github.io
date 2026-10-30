@@ -320,3 +320,8 @@ html{overflow-x:clip}
   .case-table td:last-child::before{content:'Admin: '}
 }
 @media (max-width:360px){.hero-kicker .line{display:none}.hero-kicker{justify-content:space-between;white-space:nowrap}}
+.about-intro{display:flex;align-items:center;gap:22px;max-width:450px;margin-bottom:5px}
+.about-intro img{flex:none;width:112px;height:112px;object-fit:cover;border:2px solid var(--lime);border-radius:50%}
+.about-intro p{margin:0;color:var(--muted);font-size:14px}
+@media (max-width:800px){.about-intro{align-items:flex-start;max-width:none;margin-top:28px}.about-intro img{width:88px;height:88px}}
+@media (max-width:400px){.about-intro{gap:16px}.about-intro img{width:72px;height:72px}}
